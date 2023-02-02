@@ -1,29 +1,21 @@
 {
   "name": "pbnj",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "parcel bootstrap node javascript",
+  "main": "./src/js/main.js",
   "keywords": [],
-  "author": "",
+  "author": "@cresencio",
   "license": "ISC",
   "scripts": {
-    "clean": "rm dist/bundle.js",
     "start": "parcel serve src/index.html --public-url / --dist-dir dist",
     "build-prod": "parcel build src/index.html"
   },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.2",
-    "jquery": "^3.6.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@babel/preset-env": "^7.19.3",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-prettier": "^3.4.1",
-    "parcel-bundler": "^1.3.1",
-    "prettier": "^2.7.1",
-    "sass": "^1.55.0"
+    "bootstrap": "^5.2.3"
   }
 }
