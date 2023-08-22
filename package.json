@@ -7,9 +7,9 @@
   "author": "@cresencio",
   "license": "ISC",
   "scripts": {
-    "clean:output": "rimraf dist",
+    "clean:output": "rimraf docs",
     "start": "npm run clean:output && parcel serve src/index.html --public-url /",
-    "build-prod": "npm run clean:output && parcel build ./src/index.html --no-content-hash"
+    "build-prod": "npm run clean:output && parcel build ./src/index.html --dist-dir ./docs --no-content-hash"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
