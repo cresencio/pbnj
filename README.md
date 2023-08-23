@@ -14,33 +14,33 @@ Welcome to the vibrant world of **Parcel**, **Bootstrap**, **Node**, and **JavaS
 
 First, let's get all the shiny tools:
 
-\`\`\`sh
+```sh
 npm install
-\`\`\`
+```
 
 ### Enter the Playground! 🎢
 
 Run in hot module reloading mode and see magic happen:
 
-\`\`\`sh
+```sh
 npm start
-\`\`\`
+```
 
 ### Ready for the Big Stage? 🌟
 
 Create a production build and shine bright:
 
-\`\`\`sh
+```sh
 npm run build-prod
-\`\`\`
+```
 
 ## 🏃 Running
 
 Unleash your creation:
 
-\`\`\`sh
+```sh
 node dist/bundle.js
-\`\`\`
+```
 
 ## 🎁 Credits
 
