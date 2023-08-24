@@ -2,6 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const prompt = require('prompt');
+const gitClone = require('git-clone');
 
 const args = process.argv.slice(2);
 let projectName = args.find(arg => arg.startsWith('--name='))?.split('=')[1];
@@ -33,8 +34,15 @@ function createProject(name) {
       return;
     }
 
-    fs.mkdirSync(projectPath);
-    console.log(`Project created: cd into ${name} and run npm install && npm run start`);
+    console.log(`Cloning into ${name}...`);
+    gitClone('https://github.com/cresencio/pbnj', projectPath, {}, (err) => {
+      if (err) {
+        console.error('An error occurred while cloning the project:', err);
+        return;
+      }
+
+      console.log(`Project created: cd into ${name} and run npm install && npm run start`);
+    });
   } catch (err) {
     console.error('An error occurred while creating the project:', err);
   }
