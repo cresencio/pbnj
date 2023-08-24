@@ -3,7 +3,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "3.0.1",
   "description": "parcel bootstrap node javascript",
-  "keywords": [],
+  "keywords": ["bootstrap", "parcel", "javascript"],
   "author": "@cresencio",
   "license": "ISC",
   "bin": {
