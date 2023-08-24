@@ -6,6 +6,9 @@
   "keywords": [],
   "author": "@cresencio",
   "license": "ISC",
+  "bin": {
+    "pbnj1": "./bin/index.js"
+  },
   "scripts": {
     "clean:output": "rimraf dist",
     "start": "npm run clean:output && parcel serve src/index.html --public-url /",
