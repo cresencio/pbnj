@@ -8,13 +8,35 @@ Welcome to the vibrant world of **Parcel**, **Bootstrap**, **Node**, and **JavaS
 - Dance with [Bootstrap](https://getbootstrap.com/) for snazzy designs
 - Jam with [JavaScript](https://www.javascript.com/) for dynamic fun
 
-## 🚀 Building and running on localhost
+## 🎈 Get Started with npx 🎈
 
-### Get Started with a Snap! 🧰
+You can create a new project using `npx` without even cloning the repository:
 
-First, let's get all the shiny tools:
+### Run it without a name:
 
 ```sh
+npx pbnj1
+```
+
+Follow the prompt to enter a project name, and you're off to the races!
+
+### Run it with a name:
+
+```sh
+npx pbnj1 --name ./example
+```
+
+This will create a directory called "example." Just cd into it and run `npm install && npm run start` to start playing!
+
+## 🧩 Cloning and Building
+
+### Clone the Magic 🪄
+
+Grab your copy of the playground:
+
+```sh
+git clone https://github.com/yourusername/pbnj.git
+cd pbnj
 npm install
 ```
 
