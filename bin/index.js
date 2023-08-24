@@ -10,7 +10,7 @@ if (!projectName) {
   prompt.start();
   prompt.get([{
     name: 'name',
-    description: 'Enter a project name',
+    description: 'Enter a project name:',
     required: true
   }], (err, result) => {
     if (err) {
