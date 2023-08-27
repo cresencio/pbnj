@@ -3,7 +3,12 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "3.0.3",
   "description": "🎉 pbnj: Play, Build, 'N' Jam! 🎉 Welcome to the vibrant world of **Parcel**, **Bootstrap**, **Node**, and **JavaScript**! The **pbnj** project is your playground to test, tweak, and twist your code with various libraries and frameworks. Perfect for beginners and code enthusiasts alike!",
-  "keywords": ["bootstrap", "parcel", "javascript", "scss"],
+  "keywords": [
+    "bootstrap",
+    "parcel",
+    "javascript",
+    "scss"
+  ],
   "author": "@cresencio",
   "license": "ISC",
   "bin": {
